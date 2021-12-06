@@ -6,7 +6,7 @@ apt install -y wget pve-headers-$(uname -r) build-essential dkms
 
 # Select << 2.5G Ethernet LINUX driver r8125 for kernel up to 5.6 >> from this link:
 #     https://www.realtek.com/en/component/zoo/category/network-interface-controllers-10-100-1000m-gigabit-ethernet-pci-express-software
-# Solve the captcha and extract the temporary download link to replace in the wget call
+# Solve the captcha and extract the temporary download link to replace to the one in the wget call
 
 # Version downloaded
 name=r8125-9.007.01
