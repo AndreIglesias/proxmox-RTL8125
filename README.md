@@ -1,4 +1,4 @@
-# proxomox-RTL8125
+# proxmox-RTL8125
 
 ## Connect to the network with another interface
 ```bash
