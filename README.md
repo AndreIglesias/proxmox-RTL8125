@@ -11,7 +11,7 @@ ip link set enp12s0f3u3 up
 dhclient enp12s0f3u3
 ping 1.1.1.1
 ```
-## Change to community mirror if you don't have an enterprise subscription
+## Change to the community mirror if you don't have an enterprise subscription
 ```bash
 echo 'deb http://download.proxmox.com/debian/pve bullseye pve-no-subscription' > /etc/apt/sources.list.d/pve-enterprise.list
 ```
