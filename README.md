@@ -21,7 +21,7 @@ echo 'deb http://download.proxmox.com/debian/pve bullseye pve-no-subscription' >
 - Solve the captcha and extract the temporary download link to replace to the one in the [wget call](https://github.com/AndreIglesias/proxmox-RTL8125/blob/6f067b85abe3f439dbd4de440417526137091eb6/setup.sh#L14)
 ### Run the script
 ```bash
-./setup
+./setup.sh
 ```
 ## Connect to the network with RTL8125
 ```bash
